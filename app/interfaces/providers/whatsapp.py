@@ -1,6 +1,6 @@
 import requests
 import logging
-from app.messaging.providers.base import BaseMessagingProvider
+from app.interfaces.providers.base import BaseMessagingProvider
 from app.config import settings
 
 logger = logging.getLogger(__name__)

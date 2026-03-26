@@ -1,6 +1,6 @@
 from celery import Celery
 from app.config import settings
-from app.messaging.providers.whatsapp import WhatsAppProvider
+from app.interfaces.providers.whatsapp import WhatsAppProvider
 import logging
 
 logger = logging.getLogger(__name__)

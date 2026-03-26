@@ -1,7 +1,7 @@
 import logging
 from fastapi import FastAPI, Request, HTTPException
-from app.messaging.providers.whatsapp import WhatsAppProvider
-from app.messaging.dispatcher import IntentDispatcher
+from app.interfaces.providers.whatsapp import WhatsAppProvider
+from app.application.dispatcher import IntentDispatcher
 from app.clients.care_api import CareAPIClient
 from app.config import settings
 
