@@ -1,5 +1,5 @@
 import logging
-from app.services.care_api_client import CareAPIClient
+from app.clients.care_api import CareAPIClient
 
 logger = logging.getLogger(__name__)
 
