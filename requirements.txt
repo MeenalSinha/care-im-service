@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+requests
+python-dotenv
+redis
+celery
+pydantic
+pydantic-settings
+httpx
+pytest
+pytest-asyncio
